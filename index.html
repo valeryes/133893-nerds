@@ -2,6 +2,8 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="css/normalize.css" rel="stylesheet">    
     <link rel="stylesheet" href="css/stylesheet.css"/>
     <title> Дизайн-студия «Нёрдс» | Главная </title>
   </head>
@@ -9,7 +11,7 @@
     <header class="main-header">
       <div class="container">
         <div class="main-logo">
-          <a href="#">
+          <a href="./index.html">
             <img src="img/logo-header.png" width="139" height="56" alt="Дизайн-студия «Нёрдс»">
           </a>
         </div>
@@ -33,6 +35,8 @@
           <a class="cart" href="#">Корзина</a>
         </div>
       </div>
+    </header>  
+    <main class="container">
       <div class="slider">
         <div class="slider-text">
           <h1 class="slider-title">Долго, дорого, скрупулезно</h1>
@@ -51,38 +55,36 @@
           <div class="radio-2"></div>
           <div class="radio-3"></div>
         </div>
-      </div>
-    </header>
-    <main class="container">
+      </div>    
       <div class="features">
         <div class="features-item">
           <div class="features-picture">
             <img src="img/cont-nout.jpg" width="240" height="124"  alt="Веб-сайты">
           </div>
-          <b class="features-name">Веб-сайты</b>
+          <h2 class="features-name">Веб-сайты</h2>
           <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
         </div>
         <div class="features-item">
           <div class="features-picture">
             <img src="img/cont-phones.jpg" width="240" height="124"  alt="Приложения">
           </div>
-          <b class="features-name">Приложения</b>
-          <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+          <h2 class="features-name">Приложения</h2>
+          <p>Покорите топ-10 приложений в AppStrore и Google Play</p>
         </div>
         <div class="features-item">
           <div class="features-picture">
             <img src="img/cont-board.jpg" width="240" height="124"  alt="Презентации">
           </div>
-          <b class="features-name">Презентации</b>
+          <h2 class="features-name">Презентации</h2>
           <p>Вы даже не подозреваете,  насколько вы изумительны!</p>
         </div>
       </div>
       <div class="index-content">
         <div class="index-content-left">
-          <p class="studio-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
-          <p class="studio-manifest">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
-          <p class="studio-order">Выполняем заказы на разработку:</p>
-          <ul  class="studio-order-list">
+          <h1 class="studio-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h1>
+          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+          <div class="studio-offer">Выполняем заказы на разработку:</div>
+          <ul  class="studio-offer-list">
             <li>
               Веб-сайтов любой сложности
             </li>
@@ -98,8 +100,8 @@
           <div class="index-logo-big">
               <img src="img/logo-cont.png" width="240" height="119" alt="Дизайн-студия «Нёрдс»">
           </div>
-          <p class="studio-work">Как мы работаем:</p>
-          <ul  class="studio-work-list">
+          <div class="studio-offer">Как мы работаем:</div>
+          <ul  class="studio-offer-list">
             <li>
               С самоотдачей 146%
             </li>
@@ -112,23 +114,29 @@
           </ul>
         </div>
       </div>
-      <div class="main-client">
-        <div class="main-client-1"></div>
-        <div class="main-client-2"></div>
-        <div class="main-client-3"></div>
+      <div class="partner">
+        <a class="partner-member" href="#">
+          <img src="img/glukhanko.png" width="198" height="37" alt="Glukhanko">
+        </a>
+        <a class="partner-member" href="#">
+          <img src="img/htmlacademy.png" width="199" height="68" alt="HTMLacademy">
+        </a>
+        <a class="partner-member" href="#">
+          <img src="img/borodinski.png" width="209" height="86" alt="Barbershop Borodinski">
+        </a>
       </div>
       <div class="main-contact">
         <div class="main-contact-map">
           <img src="img/cont-map.jpg" width="1199" height="416" alt="Карта">
         </div>
         <div class="main-contact-address">
-          <span class="title">
+          <div class="title">
             NЁRDS DESIGN STUDIO
-          </span>
+          </div>
           <p class="address">
             191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> тел. +7 (812) 275-75-75
           </p>
-          <button class="btn-mail">
+          <button class="btn-mail" type="button">
             Напишите нам
           </button>
         </div>
@@ -142,17 +150,13 @@
     <footer class="main-footer">
       <div class="container">
         <div class="footer-social">
-          <p class="slogan"> Давайте дружить, это выгодно! </p>
-          <p class="offer"> Скидка 10% для друзей из социальных сетей. </p>
-          <a class="social-btn social-btn-vk" href="#">
-            <img src="img/icon-vk.png" width="63" height="63" alt="Дизайн-студия «Нёрдс»">
-          </a>
-          <a class="social-btn social-btn-fb" href="#">
-            <img src="img/icon-facebook.png" width="63" height="63" alt="Дизайн-студия «Нёрдс»">
-          </a>
-          <a class="social-btn social-btn-inst" href="#">
-            <img src="img/icon-instagramm.png" width="63" height="63" alt="Дизайн-студия «Нёрдс»">
-          </a>
+          <a class="social-btn social-btn-vk" href="#">Вконтакт</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </div>
+        <div class="footer-offer">
+          <h1> Давайте дружить, это выгодно! </h1>
+          <p> Скидка 10% для друзей из социальных сетей. </p>
         </div>
       </div>
     </footer>
