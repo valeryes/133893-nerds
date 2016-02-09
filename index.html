@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <div class="main-logo">
           <a href="./index.html">
             <img src="img/logo-header.png" width="139" height="56" alt="Дизайн-студия «Нёрдс»">
@@ -35,24 +35,8 @@
           <a class="cart" href="#">Корзина</a>
         </div>
       </div>
-<<<<<<< HEAD
     </header>  
     <main class="container">
-=======
-      
-      <!-- 
-        Включать слайдер в header не очень правильно, хоть они и имеют общий фон
-        Слайдер желательно сделать отдельным блоком
-
-        Обрати внимание, что все элементы до моего комментария повторяются на внутренней странице
-        Соответственно, вот эта общая часть и есть наш header
-
-        Включая в него слайдер ты
-        а) Слишком перегружаешь его лишним контентом
-        б) Усложняешь работу для бакенд-разработчика, который будет интегрировать верстку (ему придется делать доп условия или разные шаблоны headerов для главной/внутренней страниц)
-       -->
-
->>>>>>> origin/master
       <div class="slider">
         <div class="slider-text">
           <h1 class="slider-title">Долго, дорого, скрупулезно</h1>
@@ -77,20 +61,7 @@
           <div class="features-picture">
             <img src="img/cont-nout.jpg" width="240" height="124"  alt="Веб-сайты">
           </div>
-<<<<<<< HEAD
           <h2 class="features-name">Веб-сайты</h2>
-=======
-          <!-- 
-            Использовать строчные элементы (span, b, i) для оформления заголовков не самая удачная и хорошая идея
-            Проблем несколько
-
-            1. Элемент по умолчанию не блочный, поэтому придется переназначать через css стили (задавать явно display: block)  
-            2. Теги b, i, span, em служат для выделения небольших фраз в контексте текста и не служат по смыслу тегами-заголовками
-
-            В данном случае лучше либо явно использовать заголовки - h2-h6 или если не можешь определиться какой это должен быть заголовок по смыслу использовать div
-          -->
-          <b class="features-name">Веб-сайты</b>
->>>>>>> origin/master
           <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
         </div>
         <div class="features-item">
@@ -110,29 +81,10 @@
       </div>
       <div class="index-content">
         <div class="index-content-left">
-<<<<<<< HEAD
           <h1 class="studio-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h1>
           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
           <div class="studio-offer">Выполняем заказы на разработку:</div>
           <ul  class="studio-offer-list">
-=======
-          <!-- 
-            Еще раз.
-            Для заголовков в разметке желательно использовать либо h2-h6 или если не можешь определиться какой это должен быть заголовок по смыслу использовать div
-           -->
-          <p class="studio-title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
-          <!-- 
-            Для стилизации этого текста в будущем лучше использовать каскад, то есть
-            .index-content-left p
-           -->
-          <p class="studio-manifest">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
-
-          <!-- 
-            Ниже тоже заголовок
-           -->
-          <p class="studio-order">Выполняем заказы на разработку:</p>
-          <ul  class="studio-order-list">
->>>>>>> origin/master
             <li>
               Веб-сайтов любой сложности
             </li>
@@ -148,17 +100,8 @@
           <div class="index-logo-big">
               <img src="img/logo-cont.png" width="240" height="119" alt="Дизайн-студия «Нёрдс»">
           </div>
-<<<<<<< HEAD
           <div class="studio-offer">Как мы работаем:</div>
           <ul  class="studio-offer-list">
-=======
-          <!-- 
-            Обрати внимание что стили заголовков "Выполняем заказы на разработку:" и "Как мы работаем" одинаковые
-            Поэтому желательно чтобы у них был общий класс
-           -->
-          <p class="studio-work">Как мы работаем:</p>
-          <ul  class="studio-work-list">
->>>>>>> origin/master
             <li>
               С самоотдачей 146%
             </li>
@@ -171,7 +114,6 @@
           </ul>
         </div>
       </div>
-<<<<<<< HEAD
       <div class="partner">
         <a class="partner-member" href="#">
           <img src="img/glukhanko.png" width="198" height="37" alt="Glukhanko">
@@ -182,45 +124,13 @@
         <a class="partner-member" href="#">
           <img src="img/borodinski.png" width="209" height="86" alt="Barbershop Borodinski">
         </a>
-=======
-      <div class="main-client">
-        <!-- 
-          Такое чувство что тут просто недоразметил 
-
-          Итак, это скорее не список клиентов, а партнеров
-          Так как это список, я бы лично оформлял его через ul li, но это не обязательно
-
-          Что важно, так это использование внутри изображений, а не делать их через фон
-          Если делать фоном, то будут проблемы в будущем, когда потребуется добавить 4-5-6 партнера (придется менять стили)
-
-          Парнер = ссылка на него
-
-          В итоге, разметка одного партнера должна быть примерно такой
-
-          <a href="#" class="partner">
-            <img src="#" alt="Barbershop borodinski"> - размеры width / height тоже надо задать
-          </a>
-
-          Так же обрати внимание, что для того чтобы построить сетку проще, желательно чтобы у всех партнеров был общий класс, а не 3 разных, как сейчас у тебя
-         -->
-        <div class="main-client-1"></div>
-        <div class="main-client-2"></div>
-        <div class="main-client-3"></div>
->>>>>>> origin/master
       </div>
       <div class="main-contact">
         <div class="main-contact-map">
           <img src="img/cont-map.jpg" width="1199" height="416" alt="Карта">
         </div>
         <div class="main-contact-address">
-<<<<<<< HEAD
           <div class="title">
-=======
-          <!-- 
-            Выше уже обсудили заголовки
-           -->
-          <span class="title">
->>>>>>> origin/master
             NЁRDS DESIGN STUDIO
           </div>
           <p class="address">
@@ -240,7 +150,6 @@
     <footer class="main-footer">
       <div class="container">
         <div class="footer-social">
-<<<<<<< HEAD
           <a class="social-btn social-btn-vk" href="#">Вконтакт</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
@@ -248,22 +157,6 @@
         <div class="footer-offer">
           <h1> Давайте дружить, это выгодно! </h1>
           <p> Скидка 10% для друзей из социальных сетей. </p>
-=======
-          <p class="slogan"> Давайте дружить, это выгодно! </p>
-          <p class="offer"> Скидка 10% для друзей из социальных сетей. </p>
-          <!-- 
-            Замечания по разметке соц кнопок аналогичное замечанию в учебном проекте
-           -->
-          <a class="social-btn social-btn-vk" href="#">
-            <img src="img/icon-vk.png" width="63" height="63" alt="Дизайн-студия «Нёрдс»">
-          </a>
-          <a class="social-btn social-btn-fb" href="#">
-            <img src="img/icon-facebook.png" width="63" height="63" alt="Дизайн-студия «Нёрдс»">
-          </a>
-          <a class="social-btn social-btn-inst" href="#">
-            <img src="img/icon-instagramm.png" width="63" height="63" alt="Дизайн-студия «Нёрдс»">
-          </a>
->>>>>>> origin/master
         </div>
       </div>
     </footer>

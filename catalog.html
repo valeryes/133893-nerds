@@ -35,18 +35,6 @@
           <a class="cart" href="#"> Корзина </a>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-
-      <!-- 
-        Учти тут комментарии, которые я описывал касательно
-        а) заголовков
-        б) структуры headerа
-       -->
-      <span class="main-title">
-        Добро пожаловать в магазин готовых макетов
-      </span>
->>>>>>> origin/master
     </header>
     <main class="container">
       <div class="catalog-title">
@@ -71,7 +59,6 @@
             </div>
           </div>
           <form class="product" action="http://nerds.ru" method="post">
-            
             <h2 class="catalog-title"> Сетки: </h2>
             <label for="grid-1"> Адаптивная </label>
             <input type="checkbox" id="grid-1" name="adaptive" checked>
@@ -79,9 +66,7 @@
             <input type="checkbox" id="grid-2" name="fixed">
             <label for="grid-3"> Резинова я</label>
             <input type="checkbox" id="grid-3" name="rubber">
-            
             <h2 class="catalog-title"> Особенности: </h2>
-<<<<<<< HEAD
             <label for="feature-1"> Слайдер </label>
             <input type="radio" id="feature-1" name="items" value="slider" checked>
             <label for="feature-2"> Блок преимуществ </label>
@@ -92,31 +77,10 @@
             <input type="radio" id="feature-4" name="items" value="gallery">
             <label for="feature-5"> Корзина </label>
             <input type="radio" id="feature-5" name="items" value="basket">
-=======
-            <!-- 
-              Смотри похожие комментарии относительно разметки input type=radio в барбершопе
-             -->
-            <label> Слайдер
-              <input type="radio" name="items" value="slider" checked>
-            </label>
-            <label> Блок преимуществ
-              <input type="radio" name="items" value="block_advantages">
-            </label>
-            <label> Новости
-              <input type="radio" name="items" value="news" checked>
-            </label>
-            <label> Галерея
-              <input type="radio" name="items" value="gallery">
-            </label>
-            <label> Корзина
-              <input type="radio" name="items" value="basket">
-            </label>
->>>>>>> origin/master
             <input type="submit" value="Показать">
           </form>
         </div>
         <div class="catalog-content-right">
-<<<<<<< HEAD
           <div class="sorting">
             <span>СОРТИРОВАТЬ:</span>
             <span>ПО ЦЕНЕ</span>
@@ -125,64 +89,6 @@
           </div>
           <div class="item">
             <img src="img/cat-aviator.jpg" width="240" height="240" alt="AVIATOR">
-=======
-          <div class="item disabled">
-            <!-- 
-              Элементы circle тебе не нужны
-              Эта "шапка" чисто оформительская штука и поэтому нет смысла делать разметку для нее
-              Самое простое сделать ее с помощью фона у псевдо-элемента
-             -->
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="item-content">
-            <!-- 
-              Изображение не должно быть ссылкой
-
-              Блок с заголовком, описанием и кнопкой купить должен быть в каждом item
-              Он появляется при наведении на item
-             -->
-              <a href="#">
-                <img src="img/cat-aviator.jpg" width="240" height="240" alt="AVIATOR">
-              </a>
-            </div>
-            <!-- 
-              Aviator не нужно было размечать, это просто текст на картинке
-             -->
-            <a href="#">
-              <div class="item-unit">
-                <span class="item-title">
-                  AVIATOR
-                </span>
-              </div>
-            </a>
-          </div>
-
-          <!-- 
-            Итак, описываю и объясняю верстку одного item
-
-            У нас есть 
-              Картинка макета + сверху шапка браузера поверх этой картинки
-              При наведении на картинку мы должны видеть белый блок с "заголовком, описанием и кнопкой-цены". Выглядит это вот так - 
-
-            Исходя из этого разметка может быть такой
-
-            <div class="item">
-              <img src="img/cat-sunset.jpg" width="240" height="240" alt="Sunset">
-
-              <div class="item-content"> - белый блок, который показывается при наведении
-                <a class="item-title" href="#">Sunset</a> - смотрим Specification.md и видим что тут должна быть ссылка
-                <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
-                <button class="btn btn-item" type="button">1000 Р.</button> - Используя button, не забывай добавлять type="button", потому что button по умолчанию имеет тип submit
-              </div>
-            </div>            
-           -->
-
-          <div class="item enabled">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
->>>>>>> origin/master
             <div class="item-content">
               <a class="item-title" href="#">AVIATOR</a>
               <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
@@ -237,30 +143,6 @@
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-      <!-- 
-        Пагинатор должен быть в той же колонке где и все item
-       -->
-      <div class="paginator">
-        <a class="current" href="#1">1</a>
-        <a href="#1">2</a>
-        <a href="#3">3</a>
-        <a href="#next">СЛЕДУЮЩАЯ</a>
-      </div>
-      <!-- 
-        main-client лишний, на внутренней нет партнеров
-       -->
-      <div class="main-client">
-        <div class="main-client-1"></div>
-        <div class="main-client-2"></div>
-        <div class="main-client-3"></div>
-      </div>
-
-      <!-- 
-        По всем блокам ниже смотри комментарии на главной
-       -->
->>>>>>> origin/master
       <div class="main-contact">
         <div class="main-contact-map">
           <img src="img/cont-map.jpg" width="1199" height="416" alt="Карта">

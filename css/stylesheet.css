@@ -1,13 +1,3 @@
-/*
-  В целом по стилям все отлично
-  Единственное, присмотрись пожалуйста к материалам, которые вам дает академия по поводу того, как правильно оформлять код - https://up.htmlacademy.ru/htmlcss/12/module/2/articles
-  Стиль кода академии - https://htmlacademy.github.io/codeguide/
-
-  Я про Порядок свойств
-  Все что касается шрифта (font-правила) было бы логичнее расположить рядом
-  
-*/
-
 body {
   font-style: normal;
   font-weight: normal;    
@@ -37,3 +27,11 @@ h2 {
   
   color: #000000;
 }
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
