@@ -8,164 +8,168 @@
     <title> Дизайн-студия «Нёрдс» | Каталог </title>
   </head>
   <body>
-    <header class="main-header">
-      <div class="container">
-        <div class="main-logo">
-          <a href="./index.html">
-            <img src="img/logo-header.png" width="139" height="56" alt="Дизайн-студия «Нёрдс»">
-          </a>
+    <div class="shell">
+      <header class="main-header">
+        <div class="container clearfix">
+          <div class="main-logo">
+            <a href="./index.html">
+              <img src="img/logo-header.png" width="139" height="56" alt="Дизайн-студия «Нёрдс»">
+            </a>
+          </div>
+          <nav class="main-navigation">
+            <ul>
+              <li>
+                <a href="#"> Студия </a>
+              </li>
+              <li>
+                <a href="#"> Клиенты </a>
+              </li>
+              <li>
+                <a href="#"> Магазин </a>
+              </li>
+              <li>
+                <a href="#"> Контакты </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="buy">
+            <a class="cart" href="#"> Корзина </a>
+          </div>
         </div>
-        <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#"> Студия </a>
-            </li>
-            <li>
-              <a href="#"> Клиенты </a>
-            </li>
-            <li>
-              <a href="#"> Магазин </a>
-            </li>
-            <li>
-              <a href="#"> Контакты </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="buy">
-          <a class="cart" href="#"> Корзина </a>
-        </div>
-      </div>
-    </header>
-    <main class="container">
-      <div class="catalog-title">
-        Добро пожаловать в магазин готовых макетов
-      </div>
-      <div class="catalog-content">
-        <div class="catalog-content-left">
-          <div class="range-filter">
-            <h2 class="catalog-title">
-              Стоимость:
-            </h2>
-            <div class="range-controls">
-              <div class="scale">
-                <div class="bar"></div>
+      </header>
+      <main>
+        <div class="container">
+          <div class="catalog-title">
+            Добро пожаловать в магазин готовых макетов
+          </div>
+          <div class="catalog-content  clearfix">
+            <div class="catalog-content-left">
+              <div class="range-filter">
+                <h2 class="catalog-content-title"> Стоимость: </h2>
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                  </div>
+                  <div class="toggle min-toggle"></div>
+                  <div class="toggle max-toggle"></div>
+                </div>
+                <div class="price-controls">
+                  от <input class="min-price" type="text" value="0">
+                  до <input class="max-price" type="text" value="15 000">
+                </div>
               </div>
-              <div class="toggle min-toggle"></div>
-              <div class="toggle max-toggle"></div>
+              <form class="product" action="http://nerds.ru" method="post">
+                <h2 class="catalog-content-title"> Сетки: </h2>
+                <label for="grid-1"> Адаптивная </label>
+                <input type="checkbox" id="grid-1" name="adaptive" checked>
+                <label for="grid-2"> Фиксированная </label>
+                <input type="checkbox" id="grid-2" name="fixed">
+                <label for="grid-3"> Резинова я</label>
+                <input type="checkbox" id="grid-3" name="rubber">
+                <h2 class="catalog-content-title"> Особенности: </h2>
+                <label for="feature-1"> Слайдер </label>
+                <input type="radio" id="feature-1" name="items" value="slider" checked>
+                <label for="feature-2"> Блок преимуществ </label>
+                <input type="radio" id="feature-2" name="items" value="block_advantages">
+                <label for="feature-3"> Новости </label>
+                <input type="radio" id="feature-3" name="items" value="news" checked>
+                <label for="feature-4"> Галерея </label>
+                <input type="radio" id="feature-4" name="items" value="gallery">
+                <label for="feature-5"> Корзина </label>
+                <input type="radio" id="feature-5" name="items" value="basket">
+                <input type="submit" value="Показать">
+              </form>
             </div>
-            <div class="price-controls">
-              от <input class="min-price" type="text" value="0">
-              до <input class="max-price" type="text" value="15 000">
+            <div class="catalog-content-right">
+              <div class="sorting">
+                <span>СОРТИРОВАТЬ:</span>
+                <span>ПО ЦЕНЕ</span>
+                <span> ПО ТИПУ</span>
+                <span>ПО ФУНКЦИОНАЛУ</span>
+              </div>
+              <div class="catalog-content-item clearfix">
+                <div class="item">
+                  <img src="img/cat-aviator.jpg" width="240" height="240" alt="AVIATOR">
+                  <div class="item-content">
+                    <a class="item-title" href="#">AVIATOR</a>
+                    <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
+                    <button class="btn btn-item" type="button">10000 Р.</button>
+                  </div>
+                </div>          
+                <div class="item">
+                  <img src="img/cat-sunset.jpg" width="240" height="240" alt="Sunset">
+                  <div class="item-content">
+                    <a class="item-title" href="#">SUNSET</a>
+                    <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
+                    <button class="btn btn-item" type="button">10000 Р.</button>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/cat-forte.jpg" width="240" height="240" alt="FORTE">
+                  <div class="item-content">
+                    <a class="item-title" href="#">FORTE</a>
+                    <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
+                    <button class="btn btn-item" type="button">10000 Р.</button>
+                  </div>
+                </div>          
+                <div class="item">
+                  <img src="img/cat-modern.jpg" width="240" height="240" alt="Modern Organic THAI">
+                  <div class="item-content">
+                    <a class="item-title" href="#">Modern Organic THAI</a>
+                    <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
+                    <button class="btn btn-item" type="button">10000 Р.</button>
+                  </div>
+                </div>          
+                <div class="item">
+                  <img src="img/cat-avenue.jpg" width="240" height="240" alt="AVENUE">
+                  <div class="item-content">
+                    <a class="item-title" href="#">AVENUE</a>
+                    <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
+                    <button class="btn btn-item" type="button">10000 Р.</button>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/cat-dovetail.jpg" width="240" height="240" alt="DOVETAIL">
+                  <div class="item-content">
+                    <a class="item-title" href="#">DOVETAIL</a>
+                    <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
+                    <button class="btn btn-item" type="button">10000 Р.</button>
+                  </div>
+                </div>
+              </div>
+              <div class="paginator">
+                <a class="current" href="#1">1</a>
+                <a href="#1">2</a>
+                <a href="#3">3</a>
+                <a href="#next">СЛЕДУЮЩАЯ</a>
+              </div>
             </div>
-          </div>
-          <form class="product" action="http://nerds.ru" method="post">
-            <h2 class="catalog-title"> Сетки: </h2>
-            <label for="grid-1"> Адаптивная </label>
-            <input type="checkbox" id="grid-1" name="adaptive" checked>
-            <label for="grid-2"> Фиксированная </label>
-            <input type="checkbox" id="grid-2" name="fixed">
-            <label for="grid-3"> Резинова я</label>
-            <input type="checkbox" id="grid-3" name="rubber">
-            <h2 class="catalog-title"> Особенности: </h2>
-            <label for="feature-1"> Слайдер </label>
-            <input type="radio" id="feature-1" name="items" value="slider" checked>
-            <label for="feature-2"> Блок преимуществ </label>
-            <input type="radio" id="feature-2" name="items" value="block_advantages">
-            <label for="feature-3"> Новости </label>
-            <input type="radio" id="feature-3" name="items" value="news" checked>
-            <label for="feature-4"> Галерея </label>
-            <input type="radio" id="feature-4" name="items" value="gallery">
-            <label for="feature-5"> Корзина </label>
-            <input type="radio" id="feature-5" name="items" value="basket">
-            <input type="submit" value="Показать">
-          </form>
-        </div>
-        <div class="catalog-content-right">
-          <div class="sorting">
-            <span>СОРТИРОВАТЬ:</span>
-            <span>ПО ЦЕНЕ</span>
-            <span> ПО ТИПУ</span>
-            <span>ПО ФУНКЦИОНАЛУ</span>
-          </div>
-          <div class="item">
-            <img src="img/cat-aviator.jpg" width="240" height="240" alt="AVIATOR">
-            <div class="item-content">
-              <a class="item-title" href="#">AVIATOR</a>
-              <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
-              <button class="btn btn-item" type="button">10000 Р.</button>
-            </div>
-          </div>          
-          <div class="item">
-            <img src="img/cat-sunset.jpg" width="240" height="240" alt="Sunset">
-            <div class="item-content">
-              <a class="item-title" href="#">SUNSET</a>
-              <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
-              <button class="btn btn-item" type="button">10000 Р.</button>
-            </div>
-          </div>
-          <div class="item">
-            <img src="img/cat-forte.jpg" width="240" height="240" alt="FORTE">
-            <div class="item-content">
-              <a class="item-title" href="#">FORTE</a>
-              <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
-              <button class="btn btn-item" type="button">10000 Р.</button>
-            </div>
-          </div>          
-          <div class="item">
-            <img src="img/cat-modern.jpg" width="240" height="240" alt="Modern Organic THAI">
-            <div class="item-content">
-              <a class="item-title" href="#">Modern Organic THAI</a>
-              <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
-              <button class="btn btn-item" type="button">10000 Р.</button>
-            </div>
-          </div>          
-          <div class="item">
-            <img src="img/cat-avenue.jpg" width="240" height="240" alt="AVENUE">
-            <div class="item-content">
-              <a class="item-title" href="#">AVENUE</a>
-              <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
-              <button class="btn btn-item" type="button">10000 Р.</button>
-            </div>
-          </div>
-          <div class="item">
-            <img src="img/cat-dovetail.jpg" width="240" height="240" alt="DOVETAIL">
-            <div class="item-content">
-              <a class="item-title" href="#">DOVETAIL</a>
-              <p class="item-description">Интернет-магазин <br> с галереей товаров</p>
-              <button class="btn btn-item" type="button">10000 Р.</button>
-            </div>
-          </div>
-          <div class="paginator">
-            <a class="current" href="#1">1</a>
-            <a href="#1">2</a>
-            <a href="#3">3</a>
-            <a href="#next">СЛЕДУЮЩАЯ</a>
           </div>
         </div>
-      </div>
-      <div class="main-contact">
-        <div class="main-contact-map">
-          <img src="img/cont-map.jpg" width="1199" height="416" alt="Карта">
-        </div>
-        <div class="main-contact-address">
-          <div class="title">
-            NЁRDS DESIGN STUDIO
+        <div class="main-contact">
+          <div class="main-contact-map">
+            <img src="img/cont-map.jpg" width="1199" height="416" alt="Карта">
           </div>
-          <p class="address">
-            191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> тел. +7 (812) 275-75-75
-          </p>
-          <button class="btn-mail" type="button">
-            Напишите нам
-          </button>
-        </div>
-        <div class="marker">
-          <div class="marker-logo">
-            <img src="img/cont-marker.png" width="231" height="190" alt="Дизайн-студия «Нёрдс»">
+          <div class="main-contact-address">
+            <div class="title">
+              NЁRDS DESIGN STUDIO
+            </div>
+            <p class="address">
+              191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br> тел. +7 (812) 275-75-75
+            </p>
+            <button class="btn-mail" type="button">
+              Напишите нам
+            </button>
+          </div>
+          <div class="marker">
+            <div class="marker-logo">
+              <img src="img/cont-marker.png" width="231" height="190" alt="Дизайн-студия «Нёрдс»">
+            </div>
           </div>
         </div>
-      </div>
-    </main>
-    <footer class="main-footer">
+        
+      </main>
+      <footer class="main-footer">
       <div class="container">
         <div class="footer-social">
           <a class="social-btn social-btn-vk" href="#">Вконтакт</a>
@@ -178,5 +182,6 @@
         </div>
       </div>
     </footer>
+    </div>
   </body>
 </html>
