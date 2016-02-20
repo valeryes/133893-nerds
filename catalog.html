@@ -3,20 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="css/stylesheet.css"/>
     <title> Дизайн-студия «Нёрдс» | Каталог </title>
   </head>
   <body>
-    <header class="main-header">
-      <div class="container clearfix">
-        <div class="main-logo">
-          <a href="./index.html">
-            <img src="img/logo-header.png" width="139" height="56" alt="Дизайн-студия «Нёрдс»">
-          </a>
-        </div>
-        <nav class="main-navigation">
-          <ul>
+    <div class="page-header">
+      <div class="container">
+        <header class="main-header clearfix">
+          <div class="main-logo">
+            <a href="./index.html">
+              <img src="img/logo-header.png" width="139" height="56" alt="Дизайн-студия «Нёрдс»">
+            </a>
+          </div>
+          <ul class="main-navigation">
             <li>
               <a href="./index.html">Студия</a>
             </li>
@@ -30,16 +31,16 @@
               <a href="#">Контакты</a>
             </li>
           </ul>
-        </nav>
-        <div class="buy">
-          <a class="cart" href="#"><span class="icon-basket"></span>Корзина</a>
-        </div>
-      </div>
-    </header>
-    <main>
+          <div class="buy">
+            <a class="cart" href="#"><span class="icon-basket"></span>Корзина</a>
+          </div>
+        </header>
+      </div> <!-- class="container" -->
       <div class="catalog-title">
         <div>Добро пожаловать в магазин готовых макетов</div>
       </div>
+    </div> <!-- class="catalog-header" -->
+    <main>
       <div class="container">
         <div class="catalog-content  clearfix">
           <div class="catalog-content-left">
@@ -60,7 +61,7 @@
               </div>
             </div>
             <form class="catalog-filter" action="http://nerds.ru" method="post">
-              <h2 class="catalog-radio-title"> Сетки: </h2>
+              <h2 class="catalog-radio-title"> Сеткa: </h2>
               <input type="radio" id="grid-1" name="grig" value="adaptive" checked>
               <label for="grid-1"> Адаптивная </label>              
               <input type="radio" id="grid-2" name="grig" value="fixed">
@@ -155,37 +156,39 @@
                   <button class="btn btn-item" type="button">10000 Р.</button>
                 </div>
               </div>
-            </div>
+            </div> <!-- class="catalog-content-item clearfix" -->
             <div class="paginator">
               <a class="current-page" href="#">1</a>
               <a href="#">2</a>
               <a href="#">3</a>
               <a class="next-page" href="#">СЛЕДУЮЩАЯ</a>
             </div>
-          </div>
-        </div>
-      </div>
+          </div> <!-- class="catalog-content-right" -->
+        </div> <!-- class="catalog-content  clearfix" -->
+      </div> <!-- class="container" -->
       <div class="main-contact">
-        <div class="main-contact-address">
-          <div>
-            NЁRDS DESIGN STUDIO
+        <div class="container">
+          <div class="main-contact-address">
+            <div>
+              NЁRDS DESIGN STUDIO
+            </div>
+            <p>
+              191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8
+            </p>
+            <p>
+              тел. +7 (812) 275-75-75
+            </p>
+            <button class="btn-mail" type="button">
+              Напишите нам
+            </button>
           </div>
-          <p>
-            191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8
-          </p>
-          <p>
-            тел. +7 (812) 275-75-75
-          </p>
-          <button class="btn-mail" type="button">
-            Напишите нам
-          </button>
         </div>
       </div>
     </main>
     <footer class="main-footer">
       <div class="container clearfix">
         <div class="footer-social clearfix">
-          <a class="social-btn social-btn-vk" href="#"><span="icon-vk">Вконтакте</a>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
         </div>
@@ -195,5 +198,24 @@
         </div>
       </div>
     </footer>
+    <div class="modal-content">
+      <form action="http://nerds.ru" method="post">
+        <div class="left-column-form">
+          <label for="log-input">Ваше имя:</label><br>
+          <input type="text" name="login" id="log-input" placeholder="Представьтесь, пожалуйста">
+        </div>
+        <div class="right-column-form">
+          <label for="em-input">Ваш e-mail:</label><br>
+          <input type="text" name="email" id="em-input" class="no-margin" placeholder="Для отправки ответа">
+        </div>
+        <div class="footer-form">
+          <label for="content-form">Текст письма:</label><br>
+          <textarea id="content-form" placeholder="В свободной форме"></textarea>
+        </div>
+        <button type="submit" class="btn-form">Отправить</button>
+        <button type="submit" class="btn-form-2 modal-content-close"></button>
+      </form>
+    </div>
+    <script src="js/script.js"></script>        
   </body>
 </html>
