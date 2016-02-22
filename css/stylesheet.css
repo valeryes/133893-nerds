@@ -11,10 +11,6 @@
 [class^='icon-']::before,
 [class*=' icon-']::before
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   display: inline-block;
   font-family: 'symbols-nerds';
   font-style: normal;
@@ -227,10 +223,6 @@ h2
 
 .main-navigation a
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   color: #000;
   display: block;
 
@@ -256,10 +248,6 @@ h2
 
 .cart
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   color: #000;
 
   display: inline-block;
@@ -288,18 +276,10 @@ h2
 
 .cart span
 {
-<<<<<<< HEAD
   color: #a6a6a6;
   font-family: 'symbols-nerds';
   font-size: 16px;
 
-=======
-
-  color: #a6a6a6;
-  font-family: 'symbols-nerds';
-  font-size: 16px;
-
->>>>>>> origin/master
   padding-right: 15px;
   text-transform: lowercase;
 
@@ -338,10 +318,6 @@ h2
 
 .slider input[type='radio']
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   opacity: 0;
   position: absolute;
 }
@@ -414,22 +390,12 @@ h2
   font-size: 16px;
   line-height: 22px;
   padding: 30px 0;
-<<<<<<< HEAD
 
   width: 470px;
 }
 
 .slide-title
 {
-=======
-
-  width: 470px;
-}
-
-.slide-title
-{
-
->>>>>>> origin/master
   color: #000;
   font-size: 36px;
   font-weight: 500;
@@ -442,15 +408,9 @@ h2
 {
   background: #fb565a;
   border-radius: 5px;
-<<<<<<< HEAD
 
   color: #fff;
 
-=======
-
-  color: #fff;
-
->>>>>>> origin/master
   display: block;
   font-size: 12px;
   font-weight: 500;
@@ -523,7 +483,6 @@ h2
   display: block;
 }
 
-<<<<<<< HEAD
 .features-item
 {
   float: left;
@@ -531,19 +490,6 @@ h2
   margin-right: 80px;
   min-height: 300px;
 
-=======
-/* .features {
- margin-bottom: 80px;
-} */
-
-.features-item
-{
-  float: left;
-  margin-bottom: 80px;
-  margin-right: 80px;
-  min-height: 300px;
-
->>>>>>> origin/master
   width: 240px;
 }
 
@@ -648,10 +594,6 @@ h2
 
 .studio-offer-list
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   list-style: none;
   margin: 0;
   padding: 0;
@@ -659,10 +601,6 @@ h2
 
 .studio-offer-list li
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   padding: 8px 0 10px 0;
   padding-left: 35px;
   position: relative;
@@ -670,10 +608,6 @@ h2
 
 .studio-offer-list li:before
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   background-color: #fb565a;
 
   content: '';
@@ -720,16 +654,9 @@ h2
   min-height: 170px;
   position: relative;
 }
-<<<<<<< HEAD
 
 .partner-member
 {
-=======
-
-.partner-member
-{
-
->>>>>>> origin/master
   display: inline-block;
   line-height: 168px;
   margin-right: 85px;
@@ -761,10 +688,6 @@ h2
 /* === catalog.html === */
 .catalog-title
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   background-color: #eee;
   min-height: 180px;
 }
@@ -824,20 +747,10 @@ h2
 
 .range-controls .scale
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   background: #d7dcde;
   height: 2px;
   margin-top: 39px;
 }
-<<<<<<< HEAD
-=======
-
-.range-controls .bar
-{
->>>>>>> origin/master
 
 .range-controls .bar
 {
@@ -917,10 +830,6 @@ input[type='checkbox']
 input[type='radio'] + label,
 input[type='checkbox'] + label
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   color: #283136;
 
   cursor: pointer;
@@ -936,14 +845,8 @@ input[type='checkbox'] + label
 
 input[type='radio'] + label:before
 {
-<<<<<<< HEAD
   color: #c1c1c1;
 
-=======
-
-  color: #c1c1c1;
-
->>>>>>> origin/master
   content: '\25cb';
 
   display: inline-block;
@@ -962,15 +865,9 @@ input[type='checkbox'] + label:before
 {
 
   color: #c1c1c1;
-<<<<<<< HEAD
 
   content: '\2610';
 
-=======
-
-  content: '\2610';
-
->>>>>>> origin/master
   display: inline-block;
   font-family: symbols-nerds;
   font-size: 1.7em;
@@ -985,18 +882,10 @@ input[type='checkbox'] + label:before
 
 input[type='radio']:checked + label:after
 {
-<<<<<<< HEAD
   color: #c1c1c1;
 
   content: '\25cf';
 
-=======
-
-  color: #c1c1c1;
-
-  content: '\25cf';
-
->>>>>>> origin/master
   display: inline-block;
   font-family: symbols-nerds;
   font-size: 1.7em;
@@ -1010,18 +899,10 @@ input[type='radio']:checked + label:after
 
 input[type='checkbox']:checked + label:after
 {
-<<<<<<< HEAD
   color: #c1c1c1;
 
   content: '\2611';
 
-=======
-
-  color: #c1c1c1;
-
-  content: '\2611';
-
->>>>>>> origin/master
   display: inline-block;
   font-family: symbols-nerds;
   font-size: 1.7em;
@@ -1077,10 +958,6 @@ input[type='checkbox'] + label:hover
 
 .sorting span
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   display: inline-block;
   font-size: 12px;
   line-height: 18px;
@@ -1095,10 +972,6 @@ input[type='checkbox'] + label:hover
 
 .sorting a
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   display: inline-block;
   font-size: 12px;
   line-height: 18px;
@@ -1152,10 +1025,6 @@ input[type='checkbox'] + label:hover
 .icon-down-dir,
 .icon-up-dir
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   color: #c1c1c1;
 
   cursor: pointer;
@@ -1259,10 +1128,6 @@ input[type='checkbox'] + label:hover
 
 .item-content
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   background: #fff;
 
   display: none;
@@ -1276,10 +1141,6 @@ input[type='checkbox'] + label:hover
 
 .item-title
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   color: #000;
 
   display: block;
@@ -1307,10 +1168,6 @@ input[type='checkbox'] + label:hover
 
 .btn-item
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   background-color: #fb565a;
   font-size: 18px;
   margin: 0 30px;
@@ -1385,29 +1242,15 @@ input[type='checkbox'] + label:hover
 /* === bottom === */
 .main-contact
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   height: 416px;
   margin-bottom: 78px;
 
   overflow: hidden;
   position: relative;
-<<<<<<< HEAD
-=======
-
-  /*background-image: url("../img/cont-map.jpg");
- background-repeat: no-repeat;
- background-position: 50% 50%;
- background-color:  #e9e5dc;
- background-size: cover;*/
->>>>>>> origin/master
 }
 
 .main-contact-address
 {
-<<<<<<< HEAD
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -1420,22 +1263,6 @@ input[type='checkbox'] + label:hover
   padding-left: 22px;
 
   background-color: #fff;
-=======
-
-  background-color: #fff;
-
-  box-sizing: border-box;
-  left: 50%;
-  margin-left: -440px;
-  /*min-height: 240px;*/
-  padding: 22px;
-  position: absolute;
-  top: 50%;
-  /*margin-top: -120px;*/
-
-  transform: translateY(-50%);
-  width: 240px;
->>>>>>> origin/master
 }
 
 .main-contact-address-title
@@ -1451,47 +1278,33 @@ input[type='checkbox'] + label:hover
 
 .main-contact-address p
 {
-<<<<<<< HEAD
-=======
-
-  color: #666;
-  line-height: 20px;
-
->>>>>>> origin/master
   margin: 0;
   margin-top: 17px;
   padding: 0;
+
+  line-height: 20px;
+  color: #666666;
 }
 
 .btn-mail
 {
-<<<<<<< HEAD
   display: block;
-=======
-  background: #fb565a;
-  border: none;
-  border-radius: 5px;
-
->>>>>>> origin/master
   box-sizing: border-box;
-
-  color: #fff;
-
-  display: block;
-  font-size: 12px;
+  width: 200px;
   margin: 0;
-<<<<<<< HEAD
   margin-top: 28px;
-=======
-  margin-top: 25px;
-  outline: none;
->>>>>>> origin/master
   padding: 10px 30px;
 
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
-  width: 200px;
+
+  background: #fb565a;
+  border-radius: 5px;
+  border: none;
+  outline: none;
 }
 
 .btn-mail:hover
@@ -1509,10 +1322,6 @@ input[type='checkbox'] + label:hover
 
 .map
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   background-color: #e9e5dc;
   background-image: url('../img/cont-map.jpg');
   background-position: 50% 50%;
@@ -1554,22 +1363,12 @@ input[type='checkbox'] + label:hover
 {
   float: left;
   min-height: 70px;
-<<<<<<< HEAD
 
   width: 550px;
 }
 
 .footer-offer-title
 {
-=======
-
-  width: 550px;
-}
-
-.footer-offer-title
-{
-
->>>>>>> origin/master
   color: #000;
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 36px;
@@ -1620,18 +1419,10 @@ input[type='checkbox'] + label:hover
 
 .social-btn-vk::before
 {
-<<<<<<< HEAD
   color: #fff;
 
   content: '\76';
 
-=======
-
-  color: #fff;
-
-  content: '\76';
-
->>>>>>> origin/master
   display: inline-block;
   font-family: symbols-nerds;
   font-size: 20px;
@@ -1656,10 +1447,6 @@ input[type='checkbox'] + label:hover
 
 .social-btn-fb::before
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   color: #fff;
 
   content: '\66';
@@ -1688,10 +1475,6 @@ input[type='checkbox'] + label:hover
 
 .social-btn-inst::before
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   color: #fff;
 
   content: '📷';
@@ -1882,10 +1665,6 @@ input[type='checkbox'] + label:hover
 
 .modal-content-show
 {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
   animation: bounce 1s;
   display: block;
 }
