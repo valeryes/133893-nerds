@@ -1,0 +1,66 @@
+.button {
+  background: #fb565a;
+  box-sizing: border-box;
+  display: inline-block;
+  min-height: 40px;
+  margin-top: 25px;
+
+  color: #ffffff;
+  font-family:  "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 40px;
+  padding: 0 10px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+  .button span {
+    display: inline-block;
+    line-height: 16px;
+    vertical-align: middle;
+  }
+  .button:hover {
+    background-color: #d6494d;
+  }
+  .button:active {
+    background-color: #b63538;
+    box-shadow: inset 0 3px 0 rgba(0,0,0,0.3);
+  }
+  .button-green {
+    background: #00ca74;
+  }
+
+  .button-green:hover {
+    background-color: #01a25e;
+  }
+
+  .button-green:active {
+    background-color: #009053;
+    box-shadow:inset 0 3px 0 rgba(0,0,0,0.3);
+  }
+
+  .button-yellow {
+    background: #efc84a;
+  }
+
+  .button-yellow:hover {
+    background-color: #d6ae2c;
+  }
+
+  .button-yellow:active {
+    background-color: #c09b24;
+    box-shadow:inset 0 3px 0 rgba(0,0,0,0.3);
+  }
+
+  .main-contact-address .button {
+    display: block;
+  }
+
+  .button-feature {
+    width: 140px;
+  }

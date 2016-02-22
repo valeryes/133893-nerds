@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,300,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link href="css/normalize.css" rel="stylesheet" type="text/css">    
-    <link  href="css/stylesheet-min.css" rel="stylesheet" type="text/css">
-    <title> Дизайн-студия «Нёрдс» | Главная </title>
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <title>Дизайн-студия «Нёрдс» | Главная</title>
   </head>
   <body>
     <div class="page-header">
@@ -145,21 +145,23 @@
       </div>
     </main> 
     <div class="main-contact">
-      <div class="container">
-        <div class="main-contact-address">
-          <div>
-            nёrds design studio
-          </div>
-          <p>
-            191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8
-          </p>
-          <p>
-            тел. +7 (812) 275-75-75
-          </p>
-          <a href="contacts.html" class="btn-mail">
-            Напишите нам
-          </a>
+      <div class="main-contact-address">
+        <div class="main-contact-address-title">
+          nёrds design studio
         </div>
+        <p>
+          191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8
+        </p>
+        <p>
+          тел. +7 (812) 275-75-75
+        </p>
+        <a href="contacts.html" class="btn-mail">
+          Напишите нам
+        </a>
+      </div>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123773!2d30.32089461579199!3d59.93879686904827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+191186!5e0!3m2!1sen!2sru!4v1456157484477" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
     </div>
     <footer class="main-footer">
@@ -170,27 +172,31 @@
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
         </div>
         <div class="footer-offer">
-          <div> Давайте дружить, это выгодно! </div>
-          <p> Скидка 10% для друзей из социальных сетей. </p>
+          <div class="footer-offer-title">
+            Давайте дружить, это выгодно!
+          </div>
+          <p>
+            Скидка 10% для друзей из социальных сетей.
+          </p>
         </div>
       </div>
     </footer>
     <div class="modal-content">
-      <form action="http://nerds.ru" method="post">
+      <form action="http://echo.htmlacademy.ru" method="post">
         <div class="left-column-form">
-          <label for="log-input">Ваше имя:</label><br>
-          <input type="text" name="login" id="log-input" placeholder="Представьтесь, пожалуйста">
+          <label for="modal-name">Ваше имя:</label><br>
+          <input type="text" name="login" id="modal-name" placeholder="Представьтесь, пожалуйста">
         </div>
         <div class="right-column-form">
-          <label for="em-input">Ваш e-mail:</label><br>
-          <input type="text" name="email" id="em-input" class="no-margin" placeholder="Для отправки ответа">
+          <label for="modal-email">Ваш e-mail:</label><br>
+          <input type="email" name="email" id="modal-email" class="no-margin" placeholder="Для отправки ответа">
         </div>
         <div class="footer-form">
-          <label for="content-form">Текст письма:</label><br>
-          <textarea id="content-form" placeholder="В свободной форме"></textarea>
+          <label for="modal-content">Текст письма:</label><br>
+          <textarea name="message" id="modal-content" placeholder="В свободной форме"></textarea>
         </div>
         <button type="submit" class="btn-form">Отправить</button>
-        <button type="button" class="btn-form-2 modal-content-close"></button>
+        <button type="button" class="btn-form-close modal-content-close"></button>
       </form>
     </div>
     <script src="js/script-min.js"></script>    
